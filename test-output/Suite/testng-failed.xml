@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="APITests(failed)">
+    <classes>
+      <class name="tests.GetDataTest">
+        <methods>
+          <include name="getDataTest_TC01"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.GetDataTest -->
+    </classes>
+  </test> <!-- APITests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
